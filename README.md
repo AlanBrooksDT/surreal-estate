@@ -1,3 +1,7 @@
+# Welcome to Surreal Estate
+
+Surreal Estate is a property search engine, perfect for finding that new home.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
