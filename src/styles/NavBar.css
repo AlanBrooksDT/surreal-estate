@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.navbar-links {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links-item {
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.linked-item {
+    background-color: white;
+    color: black;
+}
+.surreal-logo {
+    width: 200px;
+}
+
+.linked-item:link {
+    text-decoration: none;
+}
+.activeRoute {
+    color: purple;
+}
+
+
+

@@ -1,13 +1,22 @@
+import React from 'react';
 import '../styles/App.css';
+import NavBar from './NavBar.js';
+import { Switch, Route } from 'react-router-dom';
+import Properties from './Properties';
+import AddProperty from './AddProperty';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-         Surreal Estate
-        </h1>
-      </header>
+      <NavBar />
+      <Switch>
+        <Route exact path="/">
+          <Properties />
+        </Route>
+        <Route exact path="/add-property">
+          <AddProperty />
+        </Route>
+      </Switch>
     </div>
   );
 }
