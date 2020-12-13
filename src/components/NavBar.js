@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <>
         <div className="navbar">
             <img className="surreal-logo" src={logo} alt="Surreal Estate Logo" />
             <ul className="navbar-links">
@@ -17,7 +16,6 @@ const NavBar = () => {
                 </li>
             </ul>
         </div>
-        </>
     )
 }
 
