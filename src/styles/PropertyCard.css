@@ -1,0 +1,31 @@
+.property-card {
+    display: grid;
+    grid-template-rows: max-content 281px 1fr;
+    border: thin solid grey;
+    text-align: center;
+    border-radius: 4px;
+    background-color: lightgrey;
+}
+
+.title {
+    text-align: center;
+    border: thin solid grey;
+    background-color: white;
+}
+
+.emailButton {
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
