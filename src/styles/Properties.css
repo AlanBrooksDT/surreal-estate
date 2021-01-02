@@ -1,6 +1,7 @@
 .properties {
-    background-color: white;
-}
+    margin-left: 15vw; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
 
 .cards {
     display: grid;

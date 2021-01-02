@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <Properties />
+          <Properties className="properties"/>
         </Route>
         <Route exact path="/add-property">
           <AddProperty />

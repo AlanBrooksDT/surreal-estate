@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBath, faBed } from '@fortawesome/free-solid-svg-icons'
+import { faBath, faBed, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import '../styles/PropertyCard.css';
 import logo from '../surreal-estate-logo.png';
 
@@ -18,7 +18,7 @@ const PropertyCard = ({title, type, bathrooms, bedrooms, price, city, email}) =>
             <span className="bedrooms" data-testid="bedrooms-id"><FontAwesomeIcon icon={faBed} />{bedrooms} </span>
             <span className="price" data-testid='price-id'>£ {price}</span>
             <span className="city" data-testid='city-id'>Location: {city}</span>
-            <a href={email} className="emailButton" data-testid='email-id'>email</a>
+            <a href={email} className="emailButton" data-testid='email-id'><FontAwesomeIcon icon={faEnvelopeOpenText} /></a>
         </div>
     )
 }
